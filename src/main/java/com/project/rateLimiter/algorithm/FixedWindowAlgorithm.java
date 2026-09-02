@@ -41,4 +41,8 @@ public FixedWindowAlgorithm(StringRedisTemplate stringRedisTemplate ) {
 
 
 }
+@Override
+    public AlgorithmType getType() {
+     return AlgorithmType.FIXED_WINDOW;
+}
 }
